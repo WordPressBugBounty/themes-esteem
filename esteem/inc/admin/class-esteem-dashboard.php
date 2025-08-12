@@ -109,7 +109,7 @@ class Esteem_Dashboard {
 					<div class="welcome-panel-column">
 						<h3><?php esc_html_e( 'Further Actions', 'esteem' ); ?></h3>
 						<ul>
-							<li><?php printf( '<a target="_blank" href="%s" class="welcome-icon dashicons-businesswoman">' . esc_html__( 'Got theme support question?', '' ) . '</a>', esc_url( 'https://wordpress.org/support/theme//' ) ); ?></li>
+							<li><?php printf( '<a target="_blank" href="%s" class="welcome-icon dashicons-businesswoman">' . esc_html__( 'Got theme support question?', 'esteem' ) . '</a>', esc_url( 'https://wordpress.org/support/theme//' ) ); ?></li>
 							<li><?php printf( '<a target="_blank" href="%s" class="welcome-icon dashicons-thumbs-up">' . esc_html__( 'Leave a review', 'esteem' ) . '</a>', esc_url( 'https://wordpress.org/support/theme/esteem/reviews/' ) ); ?></li>
 						</ul>
 					</div>
